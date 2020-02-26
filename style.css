@@ -1,0 +1,83 @@
+.container{
+	border: 1px solid black;
+	align-items: stretch;
+	width: 70%;
+	justify-content: center;
+	display: grid;
+	margin-left: 180px;
+}
+.container_2{
+	width: 70%;
+	align-items: stretch;
+	justify-content: center;
+	display: grid;
+	margin-left: 200px;
+	margin-bottom: 20px;
+}
+h1 {
+margin-left: 10px;
+color: gray;
+}
+hr.hr_1 {
+	border: 0.5px solid gray;
+	width: 100%;
+}
+hr.hr_2{
+	border: 1px solid red;
+	width: 80%;
+}
+form {
+	align-self: center;
+}
+form label{
+
+width: 100px;
+text-align: right;
+margin-right: 100px;
+margin-bottom: 15px;
+margin-top: 0px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:16px;
+color: #2E86C1;
+}
+
+form input, select, span {
+
+margin-bottom: 15px;
+margin-right: 50px;
+}
+
+form textarea {
+
+width: 714px;
+height: 80px;
+}
+
+[type="submit"] {
+width: 140px;
+height: 60px;
+margin: 20px 0 0 850px;
+font-size:18px;
+color: white;
+background-color: #3498DB;
+border-radius: 6px;
+text-shadow: 0 0px 0px rgba(0, 0, 0, 0.2);
+}
+[type="button"]{
+	width: 140px;
+	height: 60px;
+	margin: 20px 0 0 20px;
+	font-size:18px;
+	color: white;
+	background-color: #3498DB;
+	border-radius: 6px;
+    text-shadow: 0 0px 0px rgba(0, 0, 0, 0.2);
+}
+
+p {
+margin-left: 70px;
+font-weight: bold;
+}
+.country_1{
+	width: 200px;
+}

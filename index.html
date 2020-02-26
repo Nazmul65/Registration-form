@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Regesration Form</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<form name='registration' onsubmit="return formValidation()" id="reg">
+    <fieldset>
+    	<legend>Regestration Form</legend>
+<div class="container_2">
+ <hr class="hr_2">  
+<h2>Training & Certification</h2>
+<table>
+<tr>
+    <td><label for="tr_name">Training</label></td>
+    <td><select name="tr_name"  class="country_1">
+    <option selected="" value="Default"></option>
+    <option value="t_1">Web Development</option>
+    <option value="t_2">Laravel</option>
+    <option value="t_3">Web Design</option>
+    <option value="t_4">Advanced PHP</option>
+    <option value="t_5">Advanced Javascript</option>
+    </select></td>
+    <td><label for="date_starting">From Date</label></td>
+    <td><input type="date" name="date_starting" size="40" /></td>
+</tr>
+<tr>
+    <td><label for="date_ending">To Date</label></td>
+    <td><input type="date" name="date_ending" size="40" /></td>
+    <td><label for="result">Result</label></td>
+    <td><input type="text" name="result" placeholder="Enter Result" size="40" /></td>
+</tr>
+<tr>
+    <td><label for="remark_s">Remarks</label></td>
+    <td colspan="3"><textarea placeholder="Enter Remarks" name="remark_s"></textarea></td>
+</tr>
+</table>
+</div>
+<br><br>
+
+<div class="container_2">
+<table>
+    <hr class="hr_2">
+    <h2>Professional Training & Certification</h2>
+    <tr>
+        <td><label for="subject">Subject</label></td>
+    <td><input type="text" name="subject" placeholder="Enter Subject" size="40" /></td>
+    <td><label for="institute">Institute</label></td>
+    <td><input type="text" name="institute" placeholder="Enter Institute Name" size="40" /></td>
+    </tr>
+    <tr>
+        <td><label for="duration">Duration</label></td>
+    <td><input type="text" name="duration" placeholder="Enter Duration" size="40" /></td>
+    <td><label for="date_start">From Date</label></td>
+    <td><input type="text" name="date_start" placeholder="Enter From Date" size="40" /></td>
+    </tr>
+    <tr>
+        <td><label for="date_end">To Date</label></td>
+    <td><input type="text" name="date_end" placeholder="Enter To Date" size="40" /></td>
+    <td><label for="remarks">Remarks</label></td>
+    <td><input type="text" name="remarks" placeholder="Enter Remarks" size="40" /></td>
+    </tr>
+</table><br>
+</div>
+<div class="container">
+<h1>Personal Details</h1>
+<hr class="hr_1"><br><br>
+<table>
+<tr>
+        <td><label for="fname">*Name</label></td>
+        <td><input type="text" name="fname" placeholder="CR7" size="50" /></td>
+</tr>
+<tr>
+    <td><label for="email_id">*Email</label></td>
+    <td><input type="email" name="email_id" placeholder="Enter email_id" size="50" /></td>
+</tr>
+<tr>
+    <td><label for="phone_no">*Phone</label></td>
+    <td><input type="phone" name="phone_no" placeholder="+88" size="50" /></td>
+</tr>
+<tr>
+    <td><label for="website">*Website</label></td>
+    <td><input type="text" name="website" placeholder="http://" size="50" /></td>
+</tr>
+
+<tr>
+    <td><label for="country">*Country</label></td>
+    <td><select name="country"  class="country_1">
+    <option selected="" value="Default"></option>
+    <option value="AF">Bangladesh</option>
+    <option value="AF">Norway</option>
+    <option value="AL">Canada</option>
+    <option value="DZ">Australiya</option>
+    <option value="AS">Denmark/</option>
+    <option value="AD">Finland</option>
+    </select></td>
+</tr>
+
+<tr>
+    <td><label for="city_state">*City/State</label></td>
+    <td><input type="text" name="city_state" placeholder="Enter City/State" size="50" /></td>
+</tr>
+<tr>
+    <td><label for="zip">*ZIP</label></td>
+    <td><input type="text" name="zip" placeholder="Enter zip" size="50" /></td>
+</tr>
+
+</table><br>
+</div>
+<br>
+
+<hr class="hr_2"><br>
+<div class="container_2">
+<h2>Visa & Immigration</h2>
+<table>
+    <tr>
+        <td><label for="passport_num">PassPort No.</label></td>
+    <td><input type="text" name="passport_num" placeholder="Enter PassPort No." size="40" /></td>
+    <td><label for="sponsor">Sponsor EDBU</label></td>
+    <td><input type="text" name="sponsor" placeholder="Enter Sponsor EDBU" size="40" /></td>
+    </tr>
+    <tr>
+        <td><label for="passport_exp">PassPort Exp</label></td>
+    <td><input type="text" name="passport_exp" placeholder="Enter passport_exp" size="40" /></td>
+    <td><label for="visa_exp">Visa Exp</label></td>
+    <td><input type="text" name="visa_exp" placeholder="Enter Visa Exp" size="40" /></td>
+    </tr>
+    <tr>
+        <td><label for="uid_num">UID No</label></td>
+    <td><input type="text" name="uid_num" placeholder="Enter UID No" size="40" /></td>
+    <td><label for="lc_num">LC No </label></td>
+    <td><input type="text" name="lc_num" placeholder="Enter LC No" size="40" /></td>
+    </tr>
+    <tr>
+        <td><label for="lc_exp">LC Exp</label></td>
+    <td><input type="text" name="lc_exp" placeholder="Enter LC Exp" size="40" /></td>
+    <td><label for="eid_num">EID No</label></td>
+    <td><input type="text" name="eid_num" placeholder="Enter EID No" size="40" /></td>
+    </tr>
+    <tr>
+        <td><label for="eid_exp">EID Expired Date</label></td>
+    <td><input type="text" name="eid_exp" placeholder="Enter EID Expired Date" size="40" /></td>
+    </tr>
+</table>
+</div>
+
+<input type="submit" name="Submit" value="Save">
+<input type="button" onclick="refreshFunc()" value="Refresh">
+</fieldset>
+</form><br><br>
+<script type="text/javascript">
+function formValidation()
+{
+    var trn = document.forms["registration"]["tr_name"].value;
+var date_st = document.forms["registration"]["date_starting"].value;
+var date_en = document.forms["registration"]["date_ending"].value;
+var rslt = document.forms["registration"]["result"].value;
+var rmks = document.forms["registration"]["remark_s"].value;
+var f_name = document.forms["registration"]["fname"].value;
+var e_id = document.forms["registration"]["email_id"].value;
+var phone = document.forms["registration"]["phone_no"].value;
+var w_site = document.forms["registration"]["website"].value;
+var ucountry = document.forms["registration"]["country"].value;
+var u_city = document.forms["registration"]["city_state"].value;
+var uzip = document.forms["registration"]["zip"].value;
+
+var sub = document.forms["registration"]["subject"].value;
+var inst = document.forms["registration"]["institute"].value;
+var dur = document.forms["registration"]["duration"].value;
+var date_s = document.forms["registration"]["date_start"].value;
+var date_e = document.forms["registration"]["date_end"].value;
+var rmk = document.forms["registration"]["remarks"].value;
+
+if (trn == "" || date_st == "" || date_en == "" || rslt == "" || rmks == "" || f_name == "" || e_id == "" || phone == "" || w_site == "" || ucountry == "" || u_city == "" || uzip == "" || sub == "" || inst == "" || dur == "" || date_s == "" || date_e == "" || rmk == "" ) {
+    alert("All fields must be filled out");
+    return false;
+  }
+else{
+    confirm("All saved!");
+}
+}
+function refreshFunc() {
+  document.getElementById("reg").reset();
+
+}
+</script>
+	</body>
+</html>
